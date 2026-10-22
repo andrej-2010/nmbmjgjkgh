@@ -1,0 +1,26 @@
+#include <iostream>
+
+int main()
+{
+   
+   int a;
+   int b;
+   scanf("%i", &a);
+   scanf("%i", &b);
+   int zbroj;
+   int razlika;
+   int umnozak;
+   int kolicnik;
+   zbroj = a + b;
+   printf("zbroj je %i\n", zbroj);
+   razlika = a - b;
+   printf("razlika je %i\n", razlika);
+   umnozak = a * b;
+   printf("umnozak je %i\n", umnozak);
+   kolicnik = a / b;
+   printf("kolicnik je %i\n", kolicnik);
+  
+   
+
+    return 0;
+}
